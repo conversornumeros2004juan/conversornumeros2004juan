@@ -64,4 +64,59 @@ int main (){
     return 0;
 }
 
-    
+
+
+
+
+    Algoritmo conversion 
+	definir centimetros, metros, yardas, varas, pulgadas, pies como real 
+	definir variable como entero 
+	escribir " hola, buenas noches compañero"
+	escribir "te presento mi conversion de numeros, ojo solo se puede convertir centimetros"
+	escribir "elija lo que quiera que los centimetros se coviertan "
+	escribir "1-. convertir a metros "
+	escribir "2.- convertir a yardas"
+	escribir "3.- convertir a varas"
+	escribir "4.-convertir a pulgadas"
+	escribir "5.-convertir a pies"
+	leer variable
+	si variable = 1 entonces escribir "usted eligió convertir centimetros a metros"
+		escribir "ingrese la cantidad en centimetros"
+		leer centimetros 
+		metros = centimetros / 100
+		escribir " equivalente en metros es " , metros
+		fin si 
+	si variable = 2 entonces escribir "usted eligio convertir centimetros a yardas"
+		escribir "ingrese la cantidad en centimetros"
+		leer centimetros 
+		yardas = centimetros * 0.0109361
+		escribir "equivalente en yardas es " , yardas
+	fin si 
+	si variable = 3 entonces escribir "usted eligio convertir centimetros a varas"
+		escribir "ingrese la cantidad en centimetros"
+		leer centimetros 
+		varas = centimetros / 84
+		escribir "equivalente en varas es " , varas
+	FinSi
+	si variable = 4 entonces escribir "usted eligio convertir centimetros a pulgadas "
+		escribir "ingrese la cantidad en centimetros"
+		leer centimetros 
+		pulgadas = centimetros * 0.39370
+		escribir "equivalente en pulgadas es " , pulgadas
+	FinSi
+	
+	si variable = 5 entonces escribir "usted eligio convertir centimetros a pies "
+		escribir "ingrese la cantidad en centimetros"
+		leer centimetros 
+		pies =  centimetros * 0.0328084
+		escribir " equivalente en pies es ", pies
+		
+	sino escribir "  no prestas atencion a las instrucciones, vuelve a intentarlo"
+	FinSi
+
+
+	
+	
+	
+	
+FinAlgoritmo
